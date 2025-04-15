@@ -1,0 +1,21 @@
+﻿@page "/NewPage/{Id:int}"
+
+<h3>NewPage</h3>
+
+<p>@Id</p>
+
+
+@code {
+    [Parameter]
+    public int Id { get; set; } = 1;
+
+    protected override async Task OnInitializedAsync()
+    {
+
+    }
+
+}
+
+
+
+
